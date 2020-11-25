@@ -1,0 +1,258 @@
+.bannerBox {
+  background: url(../images/banner.jpg) no-repeat center center;
+  width: 100%;
+  height: 800px;
+  background-size: cover;
+  position: relative;
+}
+.bannerBox .mask {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  left: 0;
+  top: 0;
+}
+.bannerBox h3 {
+  font-size: 40px;
+  font-family: Arial Black, Arial Black-Bold;
+  font-weight: Bold;
+  text-align: left;
+  color: #147438;
+  position: absolute;
+  left: 100px;
+  top: 100px;
+}
+.bannerBox p {
+  font-size: 24px;
+  font-family: Arial, Arial-Bold;
+  font-weight: Bold;
+  text-align: left;
+  color: rgba(100, 172, 135, 0.96);
+  position: absolute;
+  left: 150px;
+  top: 300px;
+}
+.chooseBox {
+  width: 100%;
+  padding: 0 100px;
+}
+.chooseBox h4 {
+  font-size: 40px;
+  font-family: Arial Black, Arial Black-Bold;
+  font-weight: Bold;
+  text-align: left;
+  color: #777777;
+  text-align: center;
+  margin: 30px 0;
+}
+.chooseBox ul {
+  display: flex;
+  justify-content: space-between;
+}
+.chooseBox ul li {
+  width: 200px;
+  height: 100px;
+  background: #64ac87;
+  border: 1px solid #777777;
+  border-radius: 40px;
+  line-height: 100px;
+  font-size: 48px;
+  font-family: Arial Black, Arial Black-Normal;
+  font-weight: Normal;
+  text-align: center;
+  color: white;
+}
+.chooseBox ul li:hover {
+  background: #277946;
+}
+.chooseBox ul li.cur {
+  width: 400px;
+}
+.chooseBox ul li.cur em {
+  background: white;
+  color: #777777;
+  border-radius: 30px;
+  padding: 0 20px;
+}
+.chooseBox ul li.cur em input {
+  line-height: 52px;
+  border: none;
+  outline: none;
+  vertical-align: middle;
+  width: 120px;
+  font-size: 48px;
+  border-radius: 30px;
+}
+.chooseBox ul li a {
+  color: white;
+}
+.chooseBox ol {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+.chooseBox ol li {
+  width: 280px;
+  height: 70px;
+  background: #838383;
+  border: 1px solid #777777;
+  border-radius: 20px;
+  line-height: 70px;
+  font-size: 36px;
+  font-family: Arial Black, Arial Black-Normal;
+  font-weight: Normal;
+  text-align: center;
+  color: white;
+}
+.chooseBox ol li:hover {
+  background: #277946;
+}
+.chooseBox ol li.cur {
+  width: 400px;
+}
+.chooseBox ol li.cur em {
+  background: white;
+  color: #777777;
+  border-radius: 30px;
+  padding: 0 20px;
+}
+.chooseBox ol li.cur em input {
+  line-height: 52px;
+  border: none;
+  outline: none;
+  vertical-align: middle;
+  width: 120px;
+  font-size: 48px;
+  border-radius: 30px;
+}
+.chooseBox ol li a {
+  color: white;
+}
+.YourDetails {
+  width: 100%;
+  height: 1612px;
+  background: #DBE3DB;
+  border: 1px solid #777777;
+  border-radius: 0px;
+  margin-top: 40px;
+}
+.YourDetails .textBox {
+  width: 80%;
+  height: 560px;
+  background: #85BB9E;
+  border: 1px solid #777777;
+  border-radius: 0px;
+  margin: 100px auto;
+}
+.YourDetails .textBox h3 {
+  text-align: center;
+  font-size: 42px;
+  font-family: Arial Black, Arial Black-Bold;
+  font-weight: Bold;
+  color: #333;
+  margin-top: 30px;
+}
+.YourDetails .textBox .textBoxlist {
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+.YourDetails .textBox .textBoxlist div {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-bottom: 50px;
+}
+.YourDetails .textBox .textBoxlist div.cur {
+  width: 90%;
+}
+.YourDetails .textBox .textBoxlist div span {
+  font-size: 26px;
+  font-family: Arial, Arial-Normal;
+  font-weight: Normal;
+  text-align: left;
+  color: #777777;
+}
+.YourDetails .textBox .textBoxlist div input {
+  width: 100%;
+  height: 60px;
+  background: #ffffff;
+  border: 1px solid #777777;
+  border-radius: 0px;
+}
+.YourDetails .payBox {
+  width: 40%;
+  height: 540px;
+  background: #85BB9E;
+  border: 1px solid #777777;
+  border-radius: 0px;
+  margin: 100px auto;
+}
+.YourDetails .payBox h3 {
+  text-align: center;
+  font-size: 42px;
+  font-family: Arial Black, Arial Black-Bold;
+  font-weight: Bold;
+  color: #333;
+  margin-top: 30px;
+}
+.YourDetails .payBox .payBoxitem {
+  margin: 60px auto 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.YourDetails .payBox .payBoxitem p {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #777;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+.YourDetails .payBox .payBoxitem p.cur {
+  width: 90%;
+  border-bottom: none;
+}
+.YourDetails .payBox .payBoxitem p.cur span {
+  font-size: 36px;
+}
+.YourDetails .payBox .payBoxitem p span {
+  font-size: 38px;
+  font-family: Arial, Arial-Normal;
+  font-weight: Normal;
+  text-align: left;
+  color: #777777;
+  line-height: 60px;
+}
+.YourDetails .payBox .payBoxitem p em {
+  font-size: 42px;
+  margin-left: 10px;
+  color: #39365F;
+}
+.YourDetails .payBox .bigBtn {
+  width: 480px;
+  height: 160px;
+  line-height: 160px;
+  border: 2px solid #5c6a5c;
+  border-radius: 25px;
+  font-size: 56px;
+  font-family: Microsoft YaHei, Microsoft YaHei-Bold;
+  font-weight: Bold;
+  text-align: center;
+  color: #333;
+  margin: 50px auto;
+  background: #FEF77B;
+}
+.YourDetails .payBox .bigBtn:hover {
+  background: #277946;
+}
+.donateBox {
+  width: 100%;
+  padding: 30px 100px 20px;
+}
+.donateBox img {
+  width: 100%;
+}

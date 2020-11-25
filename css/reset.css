@@ -1,0 +1,303 @@
+    html,
+    body,
+    div,
+    span,
+    object,
+    iframe,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    blockquote,
+    pre,
+    abbr,
+    address,
+    cite,
+    code,
+    del,
+    dfn,
+    em,
+    img,
+    ins,
+    kbd,
+    q,
+    samp,
+    small,
+    strong,
+    sub,
+    sup,
+    var,
+    b,
+    i,
+    dl,
+    dt,
+    dd,
+    ol,
+    ul,
+    li,
+    fieldset,
+    form,
+    label,
+    legend,
+    table,
+    caption,
+    tbody,
+    tfoot,
+    thead,
+    tr,
+    th,
+    td,
+    article,
+    aside,
+    canvas,
+    details,
+    figcaption,
+    figure,
+    footer,
+    header,
+    hgroup,
+    menu,
+    nav,
+    section,
+    summary,
+    time,
+    mark,
+    audio,
+    video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+        box-sizing: border-box;
+    }
+    
+    body,
+    html {
+        width: 100%;
+    }
+    
+    body {
+        line-height: 1;
+    }
+    
+     :focus {
+        outline: 1;
+    }
+    
+    article,
+    aside,
+    canvas,
+    details,
+    figcaption,
+    figure,
+    footer,
+    header,
+    hgroup,
+    menu,
+    nav,
+    section,
+    summary {
+        display: block;
+    }
+    
+    ul {
+        list-style: none;
+    }
+    
+    .fl {
+        float: left;
+    }
+    
+    .fr {
+        float: right;
+    }
+    
+    blockquote,
+    q {
+        quotes: none;
+    }
+    
+    blockquote:before,
+    blockquote:after,
+    q:before,
+    q:after {
+        content: '';
+        content: none;
+    }
+    ol{
+        list-style:none;
+    }
+    a {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+        text-decoration: none;
+        color: #333;
+    }
+    
+    ins {
+        background-color: #ff9;
+        color: #000;
+        text-decoration: none;
+    }
+    
+    mark {
+        background-color: #ff9;
+        color: #000;
+        font-style: italic;
+        font-weight: bold;
+    }
+    
+    del {
+        text-decoration: line-through;
+    }
+    
+    abbr[title],
+    dfn[title] {
+        border-bottom: 1px dotted #000;
+        cursor: help;
+    }
+    
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+    
+    hr {
+        display: block;
+        height: 1px;
+        border: 0;
+        border-top: 1px solid #cccccc;
+        margin: 1em 0;
+        padding: 0;
+    }
+    
+    input,
+    select {
+        vertical-align: middle;
+    }
+    
+    em,
+    i {
+        font-style: normal;
+    }
+    
+    .clearfix:after,
+    .clearfix:before {
+        content: "";
+        display: table;
+    }
+    
+    .clearfix:after {
+        clear: both;
+    }
+    
+    .clearfix {
+        *zoom: 1;
+    }
+    
+    .w1200 {
+        width: 1200px;
+        margin: 0 auto;
+    }
+
+    .header {
+        height: 120px;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding: 0 100px;
+      }
+      .header > a img {
+        width: 242px;
+        height: 114px;
+      }
+      .header ul {
+        display: flex;
+        justify-content: space-around;
+        margin-left: 80px;
+      }
+      .header ul li {
+        margin-right: 50px;
+      }
+      .header ul li a {
+        color: #5C6A5C;
+        font-size: 20px;
+      }
+      .header ul li a:hover {
+        text-decoration: underline;
+      }
+      .header .searchBox {
+        width: 264px;
+        height: 51px;
+        background: #ffffff;
+        border: 1px solid #777777;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+      }
+      .header .searchBox input {
+        width: 80%;
+        height: 40px;
+        border: none;
+        outline: none;
+        padding-left: 20px;
+        background: none;
+        color: #999999;
+        font-size: 18px;
+      }
+      .header .searchBox img {
+        width: 42px;
+      }
+
+      .footerBox {
+        width: 100%;
+        height: 250px;
+        background: #64ac87;
+        overflow: hidden;
+      }
+      .footerBox h3 {
+        text-align: center;
+        font-size: 26px;
+        font-family: Arial, Arial-Bold;
+        font-weight: Bold;
+        margin-top: 50px;
+        color: #f2f8f4;
+      }
+      .footerBox p {
+        text-align: center;
+        margin-top: 10px;
+      }
+      .footerBox p a img {
+        width: 50px;
+      }
+      .footerBox div {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+      }
+      .footerBox div span {
+        display: flex;
+        align-items: center;
+        margin: 0 20px;
+      }
+      .footerBox div span img {
+        width: 50px;
+      }
+      .footerBox i {
+        display: block;
+        text-align: center;
+        margin-top: 50px;
+        font-size: 14px;
+      }

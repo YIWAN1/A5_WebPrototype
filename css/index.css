@@ -1,0 +1,354 @@
+.header {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 0 100px;
+}
+.header > a img {
+  width: 242px;
+  height: 114px;
+}
+.header ul {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 80px;
+}
+.header ul li {
+  margin-right: 50px;
+}
+.header ul li a {
+  color: #5C6A5C;
+  font-size: 20px;
+}
+.header ul li a:hover {
+  text-decoration: underline;
+}
+.header .searchBox {
+  width: 264px;
+  height: 51px;
+  background: #ffffff;
+  border: 1px solid #777777;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+.header .searchBox input {
+  width: 80%;
+  height: 40px;
+  border: none;
+  outline: none;
+  padding-left: 20px;
+  background: none;
+  color: #999999;
+  font-size: 18px;
+}
+.header .searchBox img {
+  width: 42px;
+}
+.headerBottom {
+  width: 100%;
+  height: 148px;
+  background: #64ac87;
+  border: 1px solid #777777;
+  border-radius: 0px;
+  display: flex;
+  padding: 0 100px;
+  align-items: center;
+  justify-content: space-around;
+}
+.headerBottom h3 {
+  font-size: 28px;
+  font-family: Tahoma, Tahoma-Bold Italic;
+  font-weight: 700;
+  text-align: left;
+  color: #fef77b;
+  line-height: 38px;
+  font-style: italic;
+}
+.headerBottom p {
+  font-style: italic;
+  font-size: 22px;
+  color: white;
+}
+.headerBottom a {
+  width: 238px;
+  height: 80px;
+  line-height: 80px;
+  background: #ddd66c;
+  font-size: 24px;
+  font-family: Microsoft YaHei, Microsoft YaHei-Bold;
+  font-weight: Bold;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+}
+.headerBottom a:hover {
+  background: #277946;
+}
+.bannerBox {
+  background: url(../images/banner.jpg) no-repeat center center;
+  width: 100%;
+  height: 1500px;
+  background-size: cover;
+  position: relative;
+}
+.bannerBox .mask {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  left: 0;
+  top: 0;
+}
+.bannerBox p {
+  position: absolute;
+  left: 100px;
+  top: 100px;
+  width: 650px;
+  height: 265px;
+  font-size: 24px;
+  font-family: Arial, Arial-Bold;
+  font-weight: Bold;
+  text-align: left;
+  color: #f2f8f4;
+  line-height: 42px;
+}
+.bannerBox p em {
+  font-style: italic;
+}
+.bannerBox p span {
+  display: block;
+  margin-top: 50px;
+  color: #FBFBA3;
+  font-size: 32px;
+  margin-left: 200px;
+  display: flex;
+  align-items: center;
+}
+.bannerBox p span img {
+  transform: rotate(90deg);
+  margin-left: 10px;
+  width: 30px;
+  height: 30px;
+}
+.bannerBox p span a {
+  color: #FBFBA3;
+  font-size: 22px;
+  text-decoration: underline;
+  margin-left: 15px;
+}
+.bannerBox p span a:hover {
+  color: red;
+}
+.aboutChild {
+  width: 100%;
+  height: 400px;
+  background: rgba(182, 198, 182, 0.96);
+  padding: 0 100px;
+}
+.aboutChild h3 {
+  font-size: 36px;
+  font-family: Arial, Arial-Bold;
+  font-weight: Bold;
+  color: rgba(108, 156, 170, 0.96);
+  padding: 30px 0 0 0;
+}
+.aboutChild .textBigBox {
+  display: flex;
+  margin-top: 30px;
+}
+.aboutChild .textBigBox .textBox {
+  flex: 1;
+  margin-right: 50px;
+}
+.aboutChild .textBigBox .textBox:last-child {
+  margin-right: 0;
+  flex: 0.8;
+}
+.aboutChild .textBigBox .textBox.cur {
+  flex: 1.5;
+}
+.aboutChild .textBigBox .textBox p {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-family: Helvetica, Helvetica-Bold;
+  font-weight: Bold;
+  text-align: left;
+  color: #f2f8f4;
+  line-height: 28px;
+}
+.weare {
+  width: 100%;
+  padding: 0 100px;
+  height: 650px;
+  background: #64ac87;
+}
+.weare h3 {
+  font-size: 36px;
+  font-family: Arial, Arial-Bold;
+  font-weight: Bold;
+  color: white;
+  padding: 30px 0 0 0;
+  line-height: 42px;
+}
+.weare .weareBox {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+.weare .weareBox .left img {
+  width: 600px;
+  opacity: 0.98;
+}
+.weare .weareBox .right .top {
+  display: flex;
+}
+.weare .weareBox .right .top img {
+  width: 320px;
+  height: 240px;
+  margin-left: 30px;
+}
+.weare .weareBox .right .bottom {
+  margin-left: 30px;
+  margin-top: 50px;
+}
+.weare .weareBox .right .bottom h4 {
+  font-size: 28px;
+}
+.weare .weareBox .right .bottom h4 em {
+  font-size: 14px;
+  margin-left: 20px;
+  color: #39345E;
+}
+.weare .weareBox .right .bottom h4 em a {
+  font-size: 18px;
+  text-decoration: underline;
+  margin-left: 5px;
+}
+.weare .weareBox .right .bottom h4 em a:hover {
+  color: red;
+}
+.weare .weareBox .right .bottom p {
+  color: #221E1E;
+  font-size: 22px;
+  line-height: 32px;
+  margin-top: 15px;
+}
+.bottomBox {
+  width: 100%;
+  height: 700px;
+  background: rgba(182, 198, 182, 0.96);
+  font-family: Microsoft YaHei, Microsoft YaHei-Normal;
+  overflow: hidden;
+  color: rgba(108, 156, 170, 0.96);
+}
+.bottomBox ul {
+  display: flex;
+  margin-top: 50px;
+  padding: 0 200px;
+  justify-content: space-between;
+}
+.bottomBox ul li {
+  width: 500px;
+  height: 600px;
+  background: #f2f8f4;
+  border-radius: 30px;
+  text-align: center;
+}
+.bottomBox ul li h4 {
+  font-size: 28px;
+  margin-top: 30px;
+}
+.bottomBox ul li h4 a {
+  text-decoration: underline;
+}
+.bottomBox ul li h4 a:hover {
+  color: red;
+}
+.bottomBox ul li img {
+  width: 360px;
+  margin-top: 20px;
+}
+.bottomBox ul li img.cur {
+  width: 440px;
+}
+.bottomBox ul li > a {
+  font-size: 14px;
+  display: block;
+  width: 340px;
+  margin: 10px auto;
+  line-height: 22px;
+  text-decoration: underline;
+  color: rgba(108, 156, 170, 0.96);
+}
+.bottomBox ul li > a:hover {
+  color: red;
+}
+.bottomBox ul li > a.cur {
+  font-size: 26px;
+  padding: 20px 0;
+}
+.bottomBox ul li p {
+  font-size: 12px;
+  width: 320px;
+  margin: 10px auto;
+  text-align: left;
+  color: #333;
+  line-height: 20px;
+}
+.bottomBox ul li em {
+  display: block;
+  width: 109px;
+  height: 50px;
+  border: 1px solid #ddd66c;
+  border-radius: 17px;
+  font-size: 14px;
+  font-family: Microsoft YaHei, Microsoft YaHei-Normal;
+  font-weight: Normal;
+  text-align: center;
+  color: #777777;
+  line-height: 50px;
+  margin: 20px auto;
+}
+.footerBox {
+  width: 100%;
+  height: 250px;
+  background: #64ac87;
+  overflow: hidden;
+}
+.footerBox h3 {
+  text-align: center;
+  font-size: 26px;
+  font-family: Arial, Arial-Bold;
+  font-weight: Bold;
+  margin-top: 50px;
+  color: #f2f8f4;
+}
+.footerBox p {
+  text-align: center;
+  margin-top: 10px;
+}
+.footerBox p a img {
+  width: 50px;
+}
+.footerBox div {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.footerBox div span {
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+}
+.footerBox div span img {
+  width: 50px;
+}
+.footerBox i {
+  display: block;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 14px;
+}
