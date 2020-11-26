@@ -33,3 +33,11 @@ $(function() {
         })
     })
 })
+
+$(function() {
+    $(".header ul li:first-child").mouseenter(function() {
+        $(this).children("div").stop(true, true).slideDown()
+    }).mouseleave(function() {
+        $(this).children("div").stop(true, true).slideUp()
+    })
+})
