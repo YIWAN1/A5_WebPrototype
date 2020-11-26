@@ -270,7 +270,8 @@
   margin-top: 20px;
 }
 .bottomBox ul li img.cur {
-  width: 440px;
+  width: 360px;
+  margin-top: 20px;
 }
 .bottomBox ul li > a {
   font-size: 14px;
@@ -285,8 +286,13 @@
   color: red;
 }
 .bottomBox ul li > a.cur {
-  font-size: 26px;
-  padding: 20px 0;
+  ont-size: 14px;
+  display: block;
+  width: 340px;
+  margin: 10px auto;
+  line-height: 22px;
+  text-decoration: underline;
+  color: rgba(108, 156, 170, 0.96);
 }
 .bottomBox ul li p {
   font-size: 12px;
