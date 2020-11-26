@@ -12,10 +12,10 @@
 .header ul {
   display: flex;
   justify-content: space-around;
-  margin-left: 80px;
+  margin-left: 60px;
 }
 .header ul li {
-  margin-right: 45px;
+  margin-right: 40px;
 }
 .header ul li a {
   color: #5C6A5C;
