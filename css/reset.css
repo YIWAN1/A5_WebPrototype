@@ -241,11 +241,11 @@
         position: absolute;
         width: 0;
         height: 0;
-        right: -20px;
-        top: 9px;
-        border-right: 6px solid transparent;
-        border-left: 6px solid transparent;
-        border-top: 8px solid #333;
+        right: -10px;
+        top: 6px;
+        border-right: 4px solid transparent;
+        border-left: 4px solid transparent;
+        border-top: 6px solid #333;
     }
     
     .header ul li div {
