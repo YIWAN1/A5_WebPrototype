@@ -290,6 +290,10 @@
         font-size: 20px;
     }
     
+    .header ul li a.btnitem {
+        display: none;
+    }
+    
     .header ul li a:hover {
         text-decoration: underline;
     }
@@ -500,5 +504,19 @@
             margin-top: 10px;
             font-size: 12px;
             padding: 0 20px 10px;
+        }
+        .header ul li a.btnitem {
+            display: block;
+            width: 110px;
+            height: 35px;
+            line-height: 35px;
+            background: #ddd66c;
+            font-size: 14px;
+            font-family: Microsoft YaHei, Microsoft YaHei-Bold;
+            font-weight: Bold;
+            text-align: center;
+            color: white;
+            border-radius: 10px;
+            margin: 20px auto;
         }
     }
