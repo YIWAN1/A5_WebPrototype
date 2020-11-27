@@ -419,14 +419,16 @@
         display: flex;
         margin-top: 30px;
         padding: 0 10px;
-        justify-content: space-between;
+        justify-content: center;
+        flex-wrap: wrap;
     }
     .bottomBox ul li {
-        width: 48%;
+        width: 80%;
         height: auto;
         background: #f2f8f4;
         border-radius: 10px;
         text-align: center;
+        margin-bottom: 20px;
     }
     .bottomBox ul li h4 {
         font-size: 14px;
@@ -459,6 +461,9 @@
     .bottomBox ul li>a:hover {
         color: red;
     }
+    .bottomBox ul li a.cur1 {
+        width: 80%;
+    }
     .bottomBox ul li>a.cur {
         font-size: 12px;
         display: block;
@@ -469,15 +474,16 @@
         text-decoration: underline;
         color: rgba(108, 156, 170, 0.96);
         padding: 0 10px;
+        height: auto;
     }
     .bottomBox ul li p {
-        display: none;
         font-size: 12px;
-        width: 320px;
+        width: 100%;
         margin: 10px auto;
         text-align: left;
+        padding: 0 20px;
         color: #333;
-        line-height: 20px;
+        line-height: 16px;
     }
     .bottomBox ul li em {
         display: block;
