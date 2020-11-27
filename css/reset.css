@@ -224,11 +224,13 @@
         width: 242px;
         height: 114px;
     }
-    .header>a img.bigLogo{
-        display:block;
+    
+    .header>a img.bigLogo {
+        display: block;
     }
-    .header>a img.SmallLogo{
-        display:none;
+    
+    .header>a img.SmallLogo {
+        display: none;
     }
     
     .header ul {
@@ -253,9 +255,11 @@
         border-left: 4px solid transparent;
         border-top: 6px solid #333;
     }
-    .menuBox{
-        display:none;
+    
+    .menuBox {
+        display: none;
     }
+    
     .header ul li div {
         position: absolute;
         background: white;
@@ -364,6 +368,7 @@
         margin-top: 50px;
         font-size: 14px;
     }
+    
     @media screen and (max-width: 992px) {
         .header {
             height: 60px;
@@ -371,91 +376,92 @@
             align-items: center;
             width: 100%;
             padding: 0 20px;
-            justify-content:space-between
+            justify-content: space-between
         }
-        .header>a img.bigLogo{
-            display:none;
+        .header>a img.bigLogo {
+            display: none;
         }
-        .header>a img.SmallLogo{
-            display:block;
-            width:104px;
-            height:32px;
+        .header>a img.SmallLogo {
+            display: block;
+            width: 104px;
+            height: 32px;
         }
-        .menuBox{
-            display:block;
+        .header .searchBox img.menuBox {
+            display: block;
         }
-     
-        
         .header ul {
-           display:none;
+            position: absolute;
+            border-top: 1px solid #eee;
+            top: 60px;
+            left: 0;
+            flex-direction: column;
+            margin: 0;
+            width: 100%;
+            z-index: 999;
+            background: rgb(252, 251, 241);
+            display: none;
         }
-        
         .header ul li {
-            margin-right: 40px;
+            margin-right: 0;
             position: relative;
+            line-height: 40px;
+            text-align: center;
+            border-bottom: 1px solid #eee;
         }
-        
         .header ul li:first-child::before {
             content: "";
             position: absolute;
             width: 0;
             height: 0;
-            right: -10px;
-            top: 6px;
+            right: 50%;
+            margin-right: -40px;
+            top: 19px;
             border-right: 4px solid transparent;
             border-left: 4px solid transparent;
             border-top: 6px solid #333;
         }
-        
         .header ul li div {
-            position: absolute;
+            position: initial;
             background: white;
-            border: 1px solid #999;
+            border: 1px solid #eee;
             width: 200px;
             padding: 10px 0;
             left: -50px;
             top: 20px;
             display: none;
             z-index: 999;
+            width: 100%;
         }
-        
         .header ul li div>a {
             line-height: 40px;
             font-size: 14px;
             display: block;
             padding: 0 20px;
         }
-        
         .header ul li div>a:hover {
             background: #c1c1c1;
             color: #333;
             text-decoration: none;
         }
-        
         .header ul li a {
             color: #5C6A5C;
-            font-size: 20px;
+            font-size: 14px;
         }
-        
         .header ul li a:hover {
             text-decoration: underline;
         }
-        
         .header .searchBox {
             width: 100px;
             height: 50px;
             background: #ffffff;
-            border:none;
-
+            border: none;
         }
- 
         .footerBox {
             width: 100%;
             height: auto;
             background: #64ac87;
             overflow: hidden;
         }
-        
         .footerBox h3 {
             text-align: center;
             font-size: 16px;
@@ -464,16 +470,13 @@
             margin-top: 30px;
             color: #f2f8f4;
         }
-        
         .footerBox p {
             text-align: center;
             margin-top: 10px;
         }
-        
         .footerBox p a img {
             width: 50px;
         }
-        
         .footerBox div {
             text-align: center;
             display: flex;
@@ -481,25 +484,21 @@
             justify-content: center;
             margin-top: 10px;
         }
-        
         .footerBox div span {
             display: flex;
             align-items: center;
             margin: 0 20px;
-            font-size:12px;
-            color:white;
+            font-size: 12px;
+            color: white;
         }
-        
         .footerBox div span img {
             width: 40px;
         }
-        
         .footerBox i {
             display: block;
             text-align: center;
             margin-top: 10px;
             font-size: 12px;
-            padding:0 20px 10px;
+            padding: 0 20px 10px;
         }
-      
     }

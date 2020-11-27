@@ -113,3 +113,127 @@
 .fundgo span img {
   width: 80%;
 }
+
+@media screen and (max-width: 992px) {
+  .subBannerBox {
+    background: url(../images/mp_background.png) no-repeat center center;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+  }
+  .subBannerBox .formBox {
+    width: 90%;
+    height: auto;
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid #777777;
+    border-radius: 0px;
+    font-size: 14px;
+    font-family: Microsoft YaHei, Microsoft YaHei-Normal;
+    font-weight: Normal;
+    text-align: center;
+    color: #777777;
+    margin: 30px auto;
+  }
+  .subBannerBox .formBox img {
+    margin-top: 10px;
+    width:50px;
+  }
+  .subBannerBox .formBox h3 {
+    color: #277946;
+    font-size: 16px;
+    font-family: Microsoft YaHei, Microsoft YaHei-Bold;
+    font-weight: Bold;
+    margin-top: 5px;
+  }
+  .subBannerBox .formBox .formItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .subBannerBox .formBox .formItem input {
+    width: 300px;
+    height: 38px;
+    border: 1px solid #777777;
+    background: #ffffff;
+  }
+  .subBannerBox .formBox .formItem span {
+    width: 300px;
+    text-align: left;
+    font-size:16px;
+    font-family: Arial, Arial-Bold;
+    font-weight: Bold;
+    color: #333;
+  }
+  .subBannerBox .formBox p {
+    width: 300px;
+    text-align: left;
+    margin: 15px auto;
+    font-size: 16px;
+    font-family: Arial, Arial-Bold;
+    font-weight: Bold;
+    color: #333;
+  }
+  .subBannerBox .formBox .checkBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .subBannerBox .formBox .checkBox em {
+    width: 110px;
+    text-align: left;
+    margin-bottom: 20px;
+    font-size:12px;
+  }
+  .subBannerBox .formBox .checkBox em input {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #707070;
+  }
+  .subBannerBox .formBox .postBtn {
+    width: 120px;
+    height: 50px;
+    margin: 10px auto 20px;
+    line-height: 50px;
+    border: 1px solid #5c6a5c;
+    border-radius: 25px;
+    font-size: 16px;
+    background: #FEF77B;
+    font-family: Microsoft YaHei, Microsoft YaHei-Bold;
+    font-weight: Bold;
+    text-align: center;
+  }
+  .subBannerBox .formBox .postBtn:hover {
+    background: #277946;
+  }
+
+  .fundgo {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+  }
+  .fundgo p {
+    width:80%;
+    font-size: 12px;
+    font-family: Arial Black, Arial Black-Normal;
+    font-weight: Normal;
+    text-align: left;
+    line-height: 28px;
+    color: #777;
+  }
+  .fundgo span {
+    width: 80%;
+    text-align: right;
+    margin-top:20PX;
+  }
+  .fundgo span img {
+    width: 100%;
+  }
+  
+}
